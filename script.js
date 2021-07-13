@@ -21,16 +21,20 @@ new Vue({
           artist: "Sufjan Stevens",
           cover: "https://db.songqi.online/visions-of-gideon.jpg",
           source: "https://db.songqi.online/visions-of-gideon.mp3",
-          url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
-          favorited: false
+          url: "https://music.163.com/song?id=516358165&userid=380194786",
+          blessing: "生日快乐！",
+          author: "弟弟",
+          favorited: true
         },
         {
-          name: "Everybody Knows",
-          artist: "Leonard Cohen",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/2.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/2.mp3",
-          url: "https://www.youtube.com/watch?v=Lin-a2lTelg",
-          favorited: true
+          name: "Everglow",
+          artist: "Coldplay / Gwyneth Paltrow",
+          cover: "https://db.songqi.online/everglow.jpg",
+          source: "https://db.songqi.online/everglow.mp3",
+          url: "",
+          blessing: "月月月月月月，我心目中美好存在的月月，多么幸运彼此遇见！不知不觉认识3年了，如你所说时间就像是坐上了火箭，分别的日子竟也已满1年，我一直觉得自己性格无趣遇事逃避久处生厌，但月月你知道吗，你的出现治愈了我，you give me this feeling this everglow！<br><br>我记得疫情在家你发来的零点生日祝福，记得你陪我改文章熬夜，记得你发的微博，记得你的礼物卡片，记得做工程前你对我的开导，也记得我们一起消食逛操场，一起吃火锅，一起玩游戏，一起唱歌，一起喝酒，一起失眠一整夜，一起在青衣江边聊天一整夜，你带给我的温暖我都清清楚楚的记得，也一直清清楚楚的感受着💞！你的柔软和共情总是能在我脆弱时第一时间安慰到我，在我低谷时给与我自信，在我动摇时让我内心坚定。<br><br>月月，不瞒你说，你是我心目中的情感咨询师和心理导师，真的🆘！虽然提供不了到位的心理咨询，但我愿意做你的倾听者，做你不开心时的树洞🌲🕳️！月月，你说的，我值得，我想说，你更值得，所以想和月月做能够一起度过漫长岁月的朋友👭！<br><br>少女与爱永不老去，月月生日快乐，祝你开心，不止今天",
+          author: "婷婷",
+          favorited: false
         }
       ],
       currentTrack: null,

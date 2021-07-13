@@ -6,7 +6,15 @@
   <link href="./favicon.svg" rel="icon">
   <link href="https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap&subset=latin-ext" rel="stylesheet" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css'><link rel="stylesheet" href="./style.css">
-
+<script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?1229b98078cc02c561149976cefd6228";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -60,6 +68,10 @@
           </div>
           <div class="progress__time">{{ currentTime }}</div>
         </div>
+        <br>
+        <div class="album-info_blessing" v-html="currentTrack.blessing"></div>
+        <br>
+        <div class="album-info_author">{{ currentTrack.author }}</div>
         <div v-cloak></div>
       </div>
     </div>
