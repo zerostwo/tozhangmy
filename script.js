@@ -22,8 +22,8 @@ new Vue({
           cover: "https://db.songqi.online/visions-of-gideon.jpg",
           source: "https://db.songqi.online/visions-of-gideon.mp3",
           url: "https://music.163.com/song?id=516358165&userid=380194786",
-          blessing: "生日快乐！",
-          author: "弟弟",
+          blessing: "<a href="http://www.beian.miit.gov.cn">蜀ICP备18027889号-3</a>",
+          author: "",
           favorited: true
         },
         {
